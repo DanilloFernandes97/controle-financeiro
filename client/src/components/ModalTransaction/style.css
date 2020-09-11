@@ -1,0 +1,49 @@
+.headerModal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.headerModal button {
+  height: 50px;
+  width: 50px;
+  background-color: #B71C1C;
+  color: #FFF;
+  border: none;
+  border-radius: 5px;
+}
+
+.formNewTransaction {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px lightgray;
+  border-radius: 5px;
+}
+
+.formNewTransaction .radioType {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.textInfo {
+  margin-top: 50px;
+}
+
+.valueAndDate {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+
+  justify-content: center;
+  align-items: center;
+}
+
+input[type='submit'] {
+  width: 100px;
+  height: 50px;
+}

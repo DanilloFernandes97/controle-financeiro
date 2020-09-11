@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+
+}
+
+form>div>button {
+  margin: auto 10px;
+  background-color: #0eecbc;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.resume {
+  border: solid 1px lightgray;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  width: inherit;
+}
+
+.addSearchTransaction {
+  display: flex;
+  width: inherit;
+  justify-content: space-between;
+}
+
+.transactions {
+  margin: 10px auto;
+  border: solid 1px lightgrey;
+  width: inherit;
+}
+
+
+
+
+.options span {
+  margin: 0 5px;
+  cursor: pointer;
+}
